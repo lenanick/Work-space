@@ -1,0 +1,17 @@
+#!/bin/bash
+# написать скрипт который выполнит автоматически пункты 3,4,5,6,7,8,13
+  mkdir Group_28
+# зайти в папку
+  cd Group_28
+# Создать 3 папки
+  mkdir Course, QA, Terminal
+# зайти в любую из них
+  cd Terminal
+# создать пять файлов
+  touch test_1.txt, test_2.txt, test_3.txt, test_1.json, test_2.json
+# создать три папки
+  mkdir Soring, March, 14_03_22
+# вывести спсок содержимого папки
+  ls
+# переместить любые два файла, которые вы создали, в любую другую папку
+  mv test_1.json March, test_2.txt March

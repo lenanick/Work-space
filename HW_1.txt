@@ -1,0 +1,87 @@
+1) Посмотреть где я - pwd /c/Users/User/Documents
+
+2) Создать папку - mkdir Group_28
+
+3) Зайти в папку -  cd Group_28
+
+4) Создать 3 папки - mkdir Terminal,  mkdir Course, mkdir QA
+
+5) Зайти в любоую папку - cd Terminal
+
+6) Создать 5 файлов (3 txt, 2 json) - touch test_1.txt,touch test_2.txt, touch test_3.txt
+ > test_1.json, > test_2.json
+
+7) Создать 3 папки - mkdir Spring,mkdir March,mkdir 14-03-22
+8. Вывести список содержимого папки -  ls
+14_03_22/  March/  Spring/  test_1.json  test_2.json  test_3.txt
+
+9) + Открыть любой txt файл - vim test_1.json
+10) + написать туда что-нибудь, любой текст. - I
+{  
+
+	"group": 28,
+	"people": 205,
+	"Course": "QA"
+	"JDAI": { "Name": "Vadim",
+		  "Age": 32,
+		  "Profession": "Developer"
+              }
+
+}
+
+11) + сохранить и выйти - Esc : wq enter
+12) Выйти из папки на уровень выше - cd ..Terminal
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку -  
+    mv test_1.json March
+    mv test_2.txt March
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp test_2.json Spring/test_2.json
+cp test_3.txt March/test_3.json
+
+15) Найти файл по имени
+ find March
+March
+March/test_1.json
+March/test_3.json
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+grep "Name" test_1.json
+        "JDAI": { "Name": "Vadim",
+17) вывести несколько первых строк из текстового файла
+ head -n3 test_1.json
+{
+
+        "group": 28,
+
+18) вывести несколько последних строк из текстового файла
+tail -n3 test_1.json
+    
+
+}
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less lond test_1.json
+
+{
+
+        "group": 28,
+        "people": 205,
+        "Course": "QA"
+        "JDAI": { "Name": "Vadim",
+                  "Age": 32,
+                  "Profession": "Developer"
+
+
+               }
+
+}
+
+20) вывести дату и время - date
+Tue Mar 15 17:11:06     2022
+ time
+
+real    0m0.003s
+user    0m0.000s
+sys     0m0.000s
