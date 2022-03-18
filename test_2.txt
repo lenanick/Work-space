@@ -1,0 +1,5 @@
+<xml>
+<name>Lena</name>
+<age>37</age>
+<city>Ivano-Frankivsk</city>
+
